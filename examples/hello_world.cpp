@@ -4,8 +4,8 @@
 int main()
 {
 	std::cout<<"Enter your name: "; 
-	string name; //variable initialization
-	std::cin >> name; //request value
-        std::cout << "Hello World from " << name << std::endl; //prints hello world
+	string name; //variable aussage
+	std::cin >> name; //namensanfrage
+        std::cout << "Hello World from " << name << std::endl; //druckt text
         return 0;
 }
