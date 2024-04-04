@@ -1,11 +1,13 @@
 #include <iostream>
 #include <string>
 
-int main()
+int
+main()
 {
-	std::cout<<"Enter your name: "; 
-	string name; //variable aussage
-	std::cin >> name; //namensanfrage
-        std::cout << "Hello World from " << name << std::endl; //druckt text
-        return 0;
+  cout << "Enter your name: ";
+  string name;
+  cin >> name;
+  cout << "I don't know what i need to do";
+  cout << "Hello World from " << name << endl;
+  return 0;
 }
